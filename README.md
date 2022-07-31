@@ -1,6 +1,7 @@
 # subway-contact-page
 
- contact page for interested people who want to work for subway in bad cannstatt (stuttgart)
+ Contact page for interested people who want to work for subway in bad cannstatt (stuttgart).
+ Based on EmailJS.
 
 ## Getting Started with Create React App
 
