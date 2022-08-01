@@ -18,31 +18,40 @@ const ContactUs = () => {
       <div className="container-contact">
       <form onSubmit={sendEmail}>
         <div className="label-container">
-        <label>Vorname</label><br></br>
-        <input className="input-group" type="text" name="prename" />
+        <label>Vorname:</label><br></br>
+        <input className="input-group" placeholder="erforderlich" type="text" name="prename" />
         </div>
         <div className="label-container">
-        <label>Nachname</label><br></br>
-        <input className="input-group" type="text" name="Name" />
+        <label>Nachname:</label><br></br>
+        <input className="input-group" placeholder="erforderlich" type="text" name="Name" />
         </div>
         <div className="label-container">
-        <label>Email</label><br></br>
-        <input className="input-group" type="email" name="Email" />
+        <label>Email:</label><br></br>
+        <input className="input-group" placeholder="optional"type="email" name="Email" />
         </div>
         <div className="label-container">
-        <label>Tel</label><br></br>
-        <input className="input-group" type="tel" name="Email" />
+        <label>Tel:</label><br></br>
+        <input className="input-group" placeholder="erforderlich" type="tel" name="Email" />
         </div>
         <div className="label-container">
-        <label>Alter</label><br></br>
-        <input className="input-group" min="0" type="number" name="Alter" />
+        <label>Alter:</label><br></br>
+        <input className="input-group" placeholder="erforderlich" min="0" type="number" name="Alter" />
         </div>
         <div className="label-container">
-        <label>Führerschein</label><br></br>
+        <label>Führerschein:</label><br></br>
         <input className="radio-input" type="radio" name="führerschein" />
         <span>Ja</span>
         <input className="radio-input" type="radio" name="führerschein" />
         <span>Nein</span>
+        </div>
+        <div className="label-container">
+        <label>Beschäftigung:</label><br></br>
+        <input className="radio-input" type="radio" name="beschäftigung" />
+        <span>Vollzeit</span>
+        <input className="radio-input" type="radio" name="beschäftigung" />
+        <span>Teilzeit</span>
+        <input className="radio-input" type="radio" name="beschäftigung" />
+        <span>Minijob</span>
         </div>
         <div className="label-container">
         <input className="submit" type="submit" value="senden" />
